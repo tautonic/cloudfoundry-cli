@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM microsoft/aspnetcore-build:2.0.3
 
 RUN apt-get update
 RUN apt-get install -y ca-certificates uuid-runtime jq
